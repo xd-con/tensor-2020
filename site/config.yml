@@ -1,0 +1,149 @@
+baseurl: "https://xd-con.org/tensor-2020"
+title: "Tensor Developer Summit 2020"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "Tensor Developer Summit 2020"
+  Description: "Tensor Developer Summit"
+  Date: "March 19–20"
+  # Price: "Only $100"  # If your event is free, just comment this line
+  Venue: "Berkeley Institute for Data Science"
+  Address: "190 Doe Library, UC Berkeley Campus"
+  City:  "Berkeley"
+  State: "California"
+  Logo: "/img/tensor-logo.png"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - timeline
+#    - during
+    - about
+#    - speakers
+    - schedule
+    - location
+    - sponsors
+    - organizers
+#    - contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    during: "Welcome!"
+    about: "About"
+    location: "Location"
+    speakers: "Speakers"
+    schedule: "Schedule"
+    sponsors: "Sponsors"
+    organizers: "Organizers"
+    timeline: "Timeline"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+#  CallToAction:
+#    text: "Apply Now"
+#    link: "https://forms.gle/KdML1iRTFBp1WpNx7"
+
+  # List of Sponsors
+  Sponsors:
+    - name: "Berkeley Institute for Data Science"
+      logo: "/img/BIDS.png"
+      url: "https://bids.berkeley.edu"
+
+  Timeline:
+    - date: 24 January
+      action: Registration opens
+
+    - date: 16 February
+      action: Registration closes
+
+    - date: 21 February
+      action: Participant selection announced
+
+  EventLinks:
+    - title: "Schedule"
+      url: "#schedule"
+    - title: "Code of Conduct"
+      url: "/code-of-conduct"
+
+  # The entire schedule
+  Schedule:
+    - day: "Thursday 19 March"
+      slots:
+        - name: "— Check-in / Breakfast —"
+          time: "09:00–09:30"
+        - name: "Keynote"
+          time: "09:30–10:30"
+          presenter: "TBD"
+        - name: "— Break —"
+          time: "10:30–11:00"
+        - name: "NumPy"
+          time: "11:00–11:30"
+          presenter: "TBD"
+        - name: "xarray"
+          time: "11:30–12:00"
+          presenter: "TBD"
+        - name: "— Lunch —"
+          time: "12:00–13:30"
+        - name: "PyTorch"
+          time: "13:30–14:00"
+          presenter: "TBD"
+        - name: "TensorFlow"
+          time: "14:00–14:30"
+          presenter: "TBD"
+        - name: "— Break —"
+          time: "14:30–15:00"
+        - name: "numba"
+          time: "15:00–15:30"
+          presenter: "TBD"
+        - name: "Pythran"
+          time: "15:30–16:00"
+          presenter: "TBD"
+        - name: "— Break —"
+          time: "16:00–16:30"
+        - name: "dask"
+          time: "16:30–17:00"
+          presenter: "TBD"
+
+    - day: "Friday 20 March"
+      slots:
+        - name: "— Breakfast —"
+          time: "09:00–09:30"
+        - name: "Jax"
+          time: "09:30–10:00"
+          presenter: "TBD"
+        - name: "xtensor"
+          time: "10:00–10:30"
+          presenter: "TBD"
+        - name: "— Break —"
+          time: "10:30–11:00"
+        - name: "mxnet"
+          time: "11–11:30"
+          presenter: "TBD"
+        - name: "CuPy"
+          time: "11:30–12:00"
+          presenter: "TBD"
+        - name: "— Lunch —"
+          time: "12:00–13:30"
+        - name: "Discussion"
+          time: "13:30–15:00"
+          presenter: "TBD"
+
+    # - name: "Linus Torvalds"
+    #   photo: "/img/speaker.jpg"
+    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    #   company: "Linux Foundation"
+    #   link:
+    #     href: "http://twitter.com/linus"
+    #     text: "@linus"
+    #   presentation:
+    #     title: "Digging into a Linux Kernel"
+    #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    #     time: "10h00"
+
+  Organizers:
+    - name: "Stéfan van der Walt"
+      affiliation: "NumPy / UC Berkeley"

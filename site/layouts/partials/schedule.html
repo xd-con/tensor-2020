@@ -1,0 +1,54 @@
+<h2 class="section-title" id="schedule">{{ .titles.schedule }}</h2>
+
+{{ range $day := .schedule }}
+
+  <div class="schedule-tbl">
+
+    <h3 class="day-description">{{ .day }}</h3>
+    <table>
+      <!--
+      <thead>
+        <tr>
+          <th class="schedule-time">Time</th>
+          <th class="schedule-slot">Title</th>
+          <th class="schedule-presenter">Presenter</th>
+          <th class="schedule-description">Description</th>
+        </tr>
+      </thead>
+      -->
+      <tbody>
+        {{ range $slot := .slots }}
+          {{ if ne .presentation nil }}
+            <tr>
+              <td class="schedule-time">{{ .presentation.time }}</td>
+              <td class="schedule-slot">
+              {{ with .photo }}
+                <span class="speaker-photo">
+                  <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
+                </span>
+              {{ end }}
+
+                {{ .presentation.title }}
+                <span class="speakers-company">{{ .company }}</span>
+              </td>
+              <!-- <td class="schedule-description">{{ .presentation.description }}</td> -->
+            </tr>
+          {{ else }}
+            <tr class="schedule-other">
+              <td class="schedule-time">{{ .time }}</td>
+              <td class="schedule-slot">
+                {{ if .url }}
+                <a href={{ .url }} class="schedule-url">{{ .name }}</a>
+                {{ else }}
+                {{ .name }}
+                {{ end }}
+              </td>
+              <td class="schedule-presenter">{{ .presenter }}</td>
+              <td class="schedule-description">{{ .description }}</td>
+            </tr>
+          {{ end }}
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+{{ end }}

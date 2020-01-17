@@ -1,0 +1,22 @@
+<h2 class="section-title">{{ .titles.organizers }}</h2>
+
+<ul class="organizer-list">
+  {{ range $organizer := .organizers }}
+    <li class="organizer-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      {{ with .photo }}
+        <span class="organizer-photo">
+          <img class="photo" src="{{ . }}" alt="{{ $organizer.name }}" itemprop="image">
+        </span>
+      {{ end }}
+
+      <h3 class="organizer-name">{{ .name }},
+        <span class="organizer-affiliation"> {{ .affiliation }} </span>
+        {{ with .link }}
+        <a href="{{ .href }}" title="{{ .text }}"> {{ .text }} </a>
+        {{ end }}
+      </h3>
+    </li>
+  {{ end }}
+</ul>
+
+<p>You may contact the organizers at <a href="mailto:stefanv@berkeley.edu">stefanv@berkeley.edu</a>.</p>

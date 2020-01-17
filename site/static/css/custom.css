@@ -1,0 +1,182 @@
+html {
+    font-size: 0.5em;
+    font-family: "Source Sans Pro", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+    padding-top: 1.5rem;
+}
+
+.content ul li {
+    list-style-type: circle;
+}
+
+.content ol li {
+    list-style-type: decimal;
+}
+
+.content li {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1em;
+}
+
+/* Make anchor clicks not hide heading under navigation bar */
+/* Not working right now; see https://css-tricks.com/hash-tag-links-padding/ */
+.content section::before {
+  display: block;
+  content: " ";
+  margin-top: calc(-30px - 1em);
+  height: calc(30px + 1em);
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.content section {
+    padding-top: 1.5rem;
+}
+
+.content section p {
+    width: 60% !important;
+}
+
+.nav-item {
+    vertical-align: middle;
+}
+
+.nav-link {
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.tagline {
+    padding-top: 1em;
+}
+
+.organizer-item {
+    font-size: 0.3em;
+    list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.organizer-affiliation {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.organizer-list {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.footer {
+    padding-top: 5em;
+}
+
+.day-description {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.schedule-tbl {
+    padding: 0;
+    margin-bottom: 3em;
+    width: calc(50% - 6rem);
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.schedule-tbl td {
+    padding: 1rem;
+}
+
+.schedule-url {
+    font-weight: bold;
+}
+
+.event-item-date {
+    font-weight: bold;
+}
+
+.sponsors-list {
+    padding-top: 1em;
+}
+
+.during {
+    padding: 19px;
+    margin: 0 -20px 0;
+    border: 2px solid #e7e7e7;
+    background: #eff;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+.during a {
+    color: #078;
+    font-weight: bold;
+}
+
+.header {
+  background-image: none;
+  background-color: black;
+  background-size: 100% auto;
+}
+
+.header .logo-link {
+    color: #eee !important;
+}
+
+.header .logo-image {
+    width: 30rem;
+}
+
+.header .tagline {
+    font-size: 3rem;
+    color: #eee !important;
+}
+
+.header {
+    font-size: 0.8rem;
+}
+
+.about {
+  border: none;
+  background: none;
+  border-radius: 4px;
+  padding-bottom: 0;
+  margin: none;
+}
+
+/* Very custom configurations; can be removed when re-using this template for other confs */
+
+.highlighted-list {
+    color: #a37ad4;
+    font-weight: bold;
+}

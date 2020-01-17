@@ -1,0 +1,9 @@
+<h2 class="section-title">{{ .titles.during }}</h2>
+
+<p>Welcome to Berkeley and to the Tensor Developer Summit 2020.  Here are some relevant links for following this year's event:</p>
+
+<ul class="during-event-links">
+  {{ range $eventlink := .eventlinks }}
+  <li class="event-link"><a href="{{ .url }}">{{ .title }}</a></li>
+  {{ end }}
+</ul>
