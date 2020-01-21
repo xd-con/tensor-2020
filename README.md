@@ -11,7 +11,7 @@ https://github.com/gohugoio/hugo/releases
 and place it somewhere on your path.
 
 ## Building the website
-
+- `git submodule update --init` : get the hugo template
 - `make html` : Build the static website
 - `make serve` : Serve the website locally and monitor for changes.
-- `make github` : Upload the website to GitHub Pages (https://xd-con.org/imagexd-2019)
+- `make github` : Upload the website to GitHub Pages (https://xd-con.org/tensor-2020)
