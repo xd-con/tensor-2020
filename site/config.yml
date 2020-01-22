@@ -52,6 +52,12 @@ params:
     - name: "Berkeley Institute for Data Science"
       logo: "/img/BIDS.png"
       url: "https://bids.berkeley.edu"
+    - name: ""
+      logo: "/img/sloan-logo.png"
+      url: "https://www.sloan.org"
+    - name: ""
+      logo: "/img/moore-logo.jpg"
+      url: "https://www.moore.org/"
 
   Timeline:
     - date: 24 January
