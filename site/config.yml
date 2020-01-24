@@ -101,7 +101,7 @@ params:
         - name: "Multi-level Optimization: The Pythran Three-hit Combo"
           time: "11:15–11:30"
           presenter: "Serge Guelton"
-        - name: "Jax"
+        - name: "JAX: accelerated machine-learning research via composable function transformations in Python"
           time: "11:30–11:45"
           presenter: "TBD"
         - name: "xtensor: the lazy tensor algebra library"
