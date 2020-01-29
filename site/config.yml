@@ -60,13 +60,13 @@ params:
       url: "https://www.moore.org/"
 
   Timeline:
-    - date: 24 January
+    - date: Any day now
       action: Registration opens
 
-    - date: 16 February
+    - date: 20 February
       action: Registration closes
 
-    - date: 21 February
+    - date: 24 February
       action: Participant selection announced
 
   EventLinks:
@@ -81,9 +81,9 @@ params:
       slots:
         - name: "— Check-in / Breakfast —"
           time: "09:00–09:30"
-        - name: "NumPy"
+        - name: "NumPy: APIs and Protocols"
           time: "09:30–09:45"
-          presenter: "TBD"
+          presenter: "Sebastian Berg / Stephan Hoyer"
         - name: "PyTorch"
           time: "09:45–10:00"
           presenter: "TBD"
@@ -92,7 +92,7 @@ params:
           presenter: "Paige Bailey"
         - name: "TBD"
           time: "10:15–10:30"
-          presenter: "TBD"
+          presenter: "Travis Oliphant"
         - name: "— Break —"
           time: "10:30–11:00"
         - name: "Tensor API Needs for JIT Compilers: Lessons from Numba"
