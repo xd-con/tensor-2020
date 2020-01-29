@@ -170,7 +170,7 @@ params:
         - name: "Johan Mabille"
           affiliation: "XTensor / QuantStack"
         - name: "Serge Guelton"
-          affiliation: "Pythran / Telecom Bretagne"
+          affiliation: "Pythran / Namek"
         - name: "Stanley Seibert"
           affiliation: "Numba / Anaconda"
         - name: "Matthew Rocklin"
