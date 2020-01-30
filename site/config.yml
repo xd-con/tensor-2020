@@ -26,8 +26,8 @@ params:
 #    - speakers
     - schedule
     - location
-    - sponsors
     - organizers
+    - sponsors
 #    - contact
 
   # Titles which you can translate to other languages
@@ -167,19 +167,21 @@ params:
       members:
         - name: "Paige Bailey"
           affiliation: "TensorFlow / Google"
-        - name: "Johan Mabille"
-          affiliation: "XTensor / QuantStack"
-        - name: "Serge Guelton"
-          affiliation: "Pythran / Namek"
-        - name: "Stanley Seibert"
-          affiliation: "Numba / Anaconda"
-        - name: "Matthew Rocklin"
-          affiliation: "Dask"
-        - name: "Stephan Hoyer"
-          affiliation: "XArray / Jax / Google"
-        - name: "Brian Granger"
-          affiliation: "MXNet / Amazon"
         - name: "Sean Farley"
-          affiliation: ""
+          affiliation: "—"
         - name: "Ralf Gommers"
           affiliation: "PyTorch / NumPy / QuanSight"
+        - name: "Brian Granger"
+          affiliation: "MXNet / Amazon"
+        - name: "Serge Guelton"
+          affiliation: "Pythran / Namek"
+        - name: "Stephan Hoyer"
+          affiliation: "XArray / Jax / Google"
+        - name: "Johan Mabille"
+          affiliation: "XTensor / QuantStack"
+        - name: "Adam Paszke"
+          affiliation: "PyTorch"
+        - name: "Matthew Rocklin"
+          affiliation: "Dask"
+        - name: "Stanley Seibert"
+          affiliation: "Numba / Anaconda"
