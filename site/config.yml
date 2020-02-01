@@ -43,9 +43,9 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-#  CallToAction:
-#    text: "Apply Now"
-#    link: "https://forms.gle/KdML1iRTFBp1WpNx7"
+  CallToAction:
+    text: "Apply Now"
+    link: "https://forms.gle/ZtzRTkUB4hjEEAJ26"
 
   # List of Sponsors
   Sponsors:
@@ -60,9 +60,6 @@ params:
       url: "https://www.moore.org/"
 
   Timeline:
-    - date: Any day now
-      action: Registration opens
-
     - date: 20 February
       action: Registration closes
 
