@@ -154,6 +154,12 @@ params:
     #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     #     time: "10h00"
 
+    - day: "Saturday 21 March"
+      slots:
+        - name: "Sprints"
+          time: "09:00–16:00"
+          presenter: "NumPy; Your Project!"
+
   Organizers:
     - team: Local
       members:
