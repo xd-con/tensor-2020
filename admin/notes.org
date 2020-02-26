@@ -1,0 +1,5 @@
+#+STARTUP: logdone overview hidestars odd inlineimages
+
+* Tips for next year
+
+** Add "github handle" and "institution" to registration form
