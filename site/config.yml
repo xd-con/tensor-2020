@@ -61,10 +61,14 @@ params:
 
   Timeline:
     - date: 20 February
-      action: Registration closes
+      action: Registration has closed
 
     - date: 24 February
-      action: Participant selection announced
+      action: Participant selection has been announced
+
+    - date: 19 March
+      action: The Tensor Developer Summit!
+
 
   EventLinks:
     - title: "Schedule"
