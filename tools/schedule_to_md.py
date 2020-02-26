@@ -1,6 +1,10 @@
 import yaml
+import os
+from os.path import join as pjoin
 
-data = yaml.safe_load(open('site/config.yml', 'r'))
+config_path = pjoin(os.path.dirname(__file__), '../site/config.yml')
+
+data = yaml.safe_load(open(config_path, 'r'))
 
 table_head = [
     '| Time  | Slot                      | Presenter    |',

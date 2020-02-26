@@ -20,6 +20,7 @@ github: | clean html
 	     ./site/public git@github.com:xd-con/tensor-2020
 
 poster:
-	cp poster/poster-header.md poster/poster.md
-	python ./tools/schedule_to_md.py >> poster/poster.md
-	pandoc poster/poster.md --pdf-engine=xelatex -H poster/preamble.tex -o poster/poster.pdf
+	cd admin/poster && \
+	cp poster-header.md poster.md && \
+	python ../../tools/schedule_to_md.py >> poster.md && \
+	pandoc poster.md --pdf-engine=xelatex -H preamble.tex -o poster.pdf
