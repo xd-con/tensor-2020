@@ -20,6 +20,7 @@ params:
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
+    - notifications
     - timeline
 #    - during
     - about
@@ -85,9 +86,9 @@ params:
         - name: "NumPy: APIs and Protocols"
           time: "09:30–09:45"
           presenter: "Sebastian Berg / Stephan Hoyer"
-        - name: "PyTorch"
+        - name: "RAPIDS"
           time: "09:45–10:00"
-          presenter: "TBD"
+          presenter: "📡 Peter Entschev"
         - name: "Usability Enhancements and Performance Improvements in TensorFlow 2.x"
           time: "10:00–10:15"
           presenter: "Paige Bailey"
