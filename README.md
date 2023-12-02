@@ -14,4 +14,4 @@ and place it somewhere on your path.
 - `git submodule update --init` : get the hugo template
 - `make html` : Build the static website
 - `make serve` : Serve the website locally and monitor for changes.
-- `make github` : Upload the website to GitHub Pages (https://xd-con.org/tensor-2020)
+- `make github` : Upload the website to GitHub Pages (https://xd-con.github.io/tensor-2020)

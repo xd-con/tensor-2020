@@ -1,3 +1,4 @@
 *~
 site/public
 admin/poster/*.pdf
+site/.hugo_build.lock

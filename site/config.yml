@@ -1,4 +1,4 @@
-baseurl: "https://xd-con.org/tensor-2020"
+baseurl: "https://xd-con.github.io/tensor-2020"
 title: "Tensor Developer Summit 2020"
 canonifyurls: true
 theme: "hugo-conference"
